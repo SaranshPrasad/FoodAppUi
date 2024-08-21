@@ -4,11 +4,10 @@
   "description": "This is my first react app",
   "homepage": "https://saranshprasad.github.io/FoodAppUi/",
   "scripts": {
-    "start": "parcel index.html",
     "build": "parcel build index.html",
     "test": "echo \"Error: no test specified\" && exit 1",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build"
+    "deploy": "gh-pages -d dist"
   },
   "author": "Saransh",
   "license": "ISC",
