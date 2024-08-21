@@ -26,12 +26,10 @@ const Grocery = lazy(() => import("./components/Grocery"))
 
 const AppLayout = () => {
    return (
-      <ChakraProvider>
     <div className="app">
        <Header/>
        <Outlet/>
     </div>
-    </ChakraProvider>
    );
 }
 
